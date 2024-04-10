@@ -32,7 +32,9 @@
 # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 import sys
-sys.path.append('/home/lzc/catkin_ws/src/dynamixel_motor/dynamixel_driver/src/dynamixel_driver/')
+import os
+script_dir = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(script_dir)
 
 __author__ = 'Antons Rebguns'
 __copyright__ = 'Copyright (c) 2010-2011 Antons Rebguns'
@@ -44,7 +46,6 @@ __email__ = 'anton@email.arizona.edu'
 
 
 import math
-import sys
 import errno
 from collections import deque
 from threading import Thread
