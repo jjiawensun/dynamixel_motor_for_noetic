@@ -34,8 +34,6 @@
 # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 
-import sys
-sys.path.append('/home/lzc/catkin_ws/devel/lib/python3/dist-packages/dynamixel_controllers/')
 __author__ = 'Antons Rebguns, Cody Jorgensen, Cara Slutter'
 __copyright__ = 'Copyright (c) 2010-2011 Antons Rebguns, Cody Jorgensen, Cara Slutter'
 
